@@ -1,0 +1,12 @@
+environment: prod
+devName: Claudio
+server :
+  port : 7070
+---
+environment: test
+server :
+  port : 4000
+---
+environment: service
+server :
+  port : 5000
